@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "this is for learning the backend from youtube ",
-  "type": "module", 
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -12,6 +12,9 @@
     "backend"
   ],
   "author": "Ankit yadav",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
 }
